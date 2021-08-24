@@ -60,6 +60,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  padding: 0;
 }
 
 /* Typography */
@@ -127,8 +128,12 @@ p {
   border-radius: var(--size-border-radius);
 }
 
+.navbar__menu__item.active {
+  border: 1px solid var(--color-white);
+}
+
 .navbar__menu__item:hover {
-  border-color: var(--color-white);
+  /* border-color: var(--color-white); */
   background-color: var(--color-dark-pink);
   border-radius: var(--size-border-radius);
 }
